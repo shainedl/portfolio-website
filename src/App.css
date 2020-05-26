@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  background:
+  radial-gradient(pink 3px, transparent 4px),
+  radial-gradient(pink 3px, transparent 4px),
+  linear-gradient(lavenderblush 4px, transparent 0),
+  linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+  linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+  lavenderblush;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  color: pink;
+  text-shadow: -2px 2px 2px fuchsia;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', serif;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 100px;
+  background: lavenderblush;
+  border: 15px ridge plum;
+  display: inline-block;
+  padding: 30px; 
+}
+
+.project{
+  display: inline-block;
+  flex-wrap: wrap;
+  padding: 30px; 
+  background: lavenderblush;
+  border: 15px ridge plum;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', serif;
+}
+
+.project-video{
+  border: 15px ridge plum; 
+  
+}
+
+.project-title{
+  font-size: 40px;
+  padding: 5px; 
+}
+
+.project-category{
+  font-size: 50px;
+}
+
+.thumbnails{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+
+.navigation{
+  font-size: 50px;
+  background: lavenderblush;
+  border: 15px ridge #dda0dd;
+  display: flex;
+  padding: 30px; 
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation a {
+  color:pink;
+  text-decoration: none;
+  text-shadow: -2px 2px 2px fuchsia;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', serif;
+  padding: 50px; 
+}
+
+.navigation a:hover {
+  color:fuchsia;
+}
