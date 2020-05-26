@@ -56,7 +56,7 @@ h1 {
 .navigation{
   font-size: 50px;
   background: lavenderblush;
-  border: 15px ridge #dda0dd;
+  border-bottom: 15px ridge #dda0dd;
   display: flex;
   padding: 30px; 
   align-items: center;
