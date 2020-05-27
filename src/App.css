@@ -75,3 +75,13 @@ h1 {
 .navigation a:hover {
   color:fuchsia;
 }
+
+.post{
+  color: black;
+  background: white;
+  font-size: 2em;
+  text-decoration: none;
+  text-align: left;
+  padding: 30px; 
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
