@@ -80,8 +80,13 @@ h1 {
   color: black;
   background: white;
   font-size: 2em;
-  text-decoration: none;
+  text-shadow: none;
   text-align: left;
   padding: 30px; 
   font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2, h3{
+  color: darkmagenta;
+  text-shadow: -1px 1px 1px black;
 }
