@@ -12,7 +12,7 @@ function PostPage(props){
             <div className="post">
                 <div>
                     <div className="opener">
-                        <div className="post-title">{post.title}</div>
+                        <div className="post-title-p">{post.title}</div>
                         <div className="post-description">{post.description}</div>
                         <div className="post-date">{post.date}</div> 
                     </div>

@@ -1,8 +1,8 @@
 .App {
   text-align: center; 
-  background: linear-gradient(#0D6EFF, #7E12B3);
-  color:#FFDD00;
-  text-shadow: -3px 6px 8px black;
+  background: radial-gradient(#5ab9ea, #8860d0);
+  color:#FFC247;
+  text-shadow: -2px 6px 8px #806124;
   font-family: Haettenschweiler, 'Arial Narrow Bold', serif;
   padding-top: 25vh;
   
@@ -12,8 +12,8 @@
 
 h1 {
   font-size: 3vw;
-  text-shadow: -8px 10px 10px black;
-  border: 15px ridge #FFDF00	 /*#f4c815*/;
+  text-shadow: -5px 10px 10px #806124;
+  border: 15px ridge #FF9B54	 /*#f4c815*/;
   display: inline-block;
   padding: 1.5vh; 
 }
@@ -30,16 +30,20 @@ h1 {
 }
 
 .player, img{
-  border: 15px ridge #FFDF00; 
+  border: 1vh ridge #FF9B54; 
   width: 90vw;
   height: 50vh;
-  box-shadow: -1vh 3vw 7vh black;
+  box-shadow: -1vh 3vw 7vh #804E2A;
 }
 
 
 .project-category, .post-title{
   font-size: 3vw;
   padding-top: 7vh; 
+}
+
+.post-title-p{
+  font-size: 3vw;
 }
 
 .project-title, .post-date{
@@ -61,7 +65,7 @@ h1 {
   display: block;
   justify-content: space-around;
   padding-top: 5vh;
-  color:#f9cad7;
+  color:#FFC247;
   
 
 }
@@ -78,23 +82,23 @@ h1 {
 }
 
 .navigation a {
-  color:#FFDF00;
+  color:#FFC247;
   text-decoration: none;
   padding: 50px; 
 }
 
 .navigation a:hover{
-  color:#f9cad7;
+  color:#FF9B54;
   position: relative; 
   top: -1vh;
 }
 
 .answers{
-  border: 1vh ridge #FFDF00;
+  border: 1vh ridge #FF9B54;
   color: black;
   background: white;
   font-size: 3em;
-  text-shadow: none;
+  text-shadow: -1px 3px #804E2A;
   text-align: left; 
   padding-left: 3vw;
   padding-right: 3vw;
@@ -105,16 +109,15 @@ h1 {
 }
 
 h2, h3{
-  color:#f9cad7;
+  color:#FFC247;
+  
 }
 
 
 .opener{
-  color: darkmagenta;
-  
+  color: FFC247;
   display: block;
   font-family: Haettenschweiler, 'Arial Narrow Bold', serif;
-  padding-bottom: 3vh;
   text-align: center;
 }
 
@@ -138,5 +141,5 @@ a img:hover{
 
 .ReactStickyHeader_midground {
   
-  border: 1vh ridge #FFDF00;
+  border: 1vh ridge #FF9B54;
 }
