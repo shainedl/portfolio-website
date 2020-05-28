@@ -1,12 +1,13 @@
 import React from 'react'; // Import the Component component from React
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player';
+import YouTube from '@u-wave/react-youtube';
 import './App.css';
  
 function Thumbnail(props) {
   return (
     <div className="project">
         <div className="project-video">
-          <ReactPlayer url={props.video} alt="Project Video"/>
+          <YouTube className='player' video={props.video} />
         </div>
         <div className="project-category">{props.category}</div>
         <div className="project-title">{props.title}</div>

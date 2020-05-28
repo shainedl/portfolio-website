@@ -13,13 +13,13 @@
   text-shadow: -1px 1px 1px black;
   font-family: Haettenschweiler, 'Arial Narrow Bold', serif;
   padding: 5px;
-  
+  padding-top: 20vw;
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 3vw;
   text-shadow: -2px 2px 2px black;
-  border-bottom: 15px ridge plum;
+  border: 15px ridge plum;
   display: inline-block;
   padding: 30px; 
 }
@@ -29,29 +29,27 @@ h1 {
   flex-wrap: wrap;
   padding: 30px; 
   background: white;
-  border-left: 15px ridge darkmagenta;
-  border-right: 15px ridge darkmagenta;
   font-family: Haettenschweiler, 'Arial Narrow Bold', serif;
   
 }
 
-.project-video, img{
+.player, img{
   border: 15px ridge plum; 
-  
-  
+  width: 50vw;
+  height: 40vh;
 }
 
 
 .project-category, .post-title, .post-date-page{
-  font-size: 50px;
+  font-size: 3vw;
 }
 
 .project-title, .post-date{
-  font-size: 40px;
+  font-size: 2vw;
   padding: 5px; 
 }
 .post-description{
-  font-size: 40px;
+  font-size: 2vw;
 }
 
 .thumbnails{
@@ -61,14 +59,19 @@ h1 {
   padding: 30px;
 }
 
+.blog_posts{
+  display: block;
+  justify-content: space-around;
+  padding-bottom: 10vh;
+}
+
 .navigation{
-  font-size: 50px;
+  font-size: 2vw;
   border-bottom: 15px ridge plum;
   display: flex;
   padding: 30px; 
-  align-items: center;
-  justify-content: space-between;
-  background: white;
+  
+  
 }
 
 .navigation a {

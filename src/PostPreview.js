@@ -6,7 +6,7 @@ function PostPreview(props) {
   return (
     <Link to={`/blog/${props.id}`}>
         <div className="blog_posts">
-            <img src={props.image} width="700" alt="Post"/>
+            <img src={props.image} alt="Post"/>
             <h2 className="post-title">{props.title}</h2>
             <div className="post-description">{props.description}</div>
             <div className="post-date">{props.date}</div>
@@ -16,5 +16,3 @@ function PostPreview(props) {
 }
  
 export default PostPreview;
-
-/*<img src={`/assets/images/${this.props.image}`} alt="Post"/>*/
