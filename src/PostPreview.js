@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 function PostPreview(props) {
 
   return (
-    <Link to={`/blog/${props.id}`}>
+    <Link to={`/blog/${props.id}`} style={{ textDecoration: 'none' }} activeStyle={{color: 'red'}}>
         <div className="blog_posts">
             <img src={props.image} alt="Post"/>
-            <h2 className="post-title">{props.title}</h2>
+            <div className="post-title">{props.title}</div>
             <div className="post-description">{props.description}</div>
             <div className="post-date">{props.date}</div>
         </div>

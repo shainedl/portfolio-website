@@ -1,6 +1,7 @@
 import React from 'react';
 // Import the BrowserRouter, Route and Link components
 import { BrowserRouter, Route, Link, Switch } from 'react-router-dom'; 
+import Home from './Home';
 import Projects from './Projects'; 
 import Blog from './Blog'; 
 import About from './About'; 
@@ -21,19 +22,21 @@ function App() {
             <h1 className="Header_title">SHAINE LEIBOWITZ</h1>
     
             <ul className="navigation">
-              <li className="Header_link"><Link to="/">PROJECTS</Link></li>
+            <li className="Header_link"><Link to="/">HOME</Link></li>
+              <li className="Header_link"><Link to="/projects">PROJECTS</Link></li>
               <li className="Header_link"><Link to="/blog">BLOG</Link></li>
               <li className="Header_link"><Link to="/about">ABOUT</Link></li>
             </ul>
           </div>
           }
-          backgroundColor={'white'}
+          backgroundColor={'#1252B3'}
         >
 
         </StickyHeader>
 
         <Switch>
-          <Route exact path="/" component={Projects} />
+          <Route exact path="/" component={Home} />
+          <Route path="/projects" component={Projects} />
           <Route path="/blog/:id" component={PostPage} />
           <Route path="/blog" component={Blog} />
           <Route path="/about" component={About} />
@@ -50,18 +53,3 @@ function App() {
 }
 
 export default App;
-
-/*
-      <h1>SHAINE LEIBOWITZ</h1>
-      <header className="navigation">
-          <div>
-            <Link to="/">PROJECTS</Link>
-          </div>
-          <div>
-            <Link to="/blog">BLOG</Link>
-          </div>
-          <div>
-            <Link to="/about">ABOUT</Link>
-          </div>
-        </header>
-        */

@@ -12,9 +12,9 @@ function PostPage(props){
             <div className="post">
                 <div>
                     <div className="opener">
-                        <div className="post-title-page">{post.title}</div>
-                        <div className="post-description-page">{post.description}</div>
-                        <div className="post-date-page">{post.date}</div> 
+                        <div className="post-title">{post.title}</div>
+                        <div className="post-description">{post.description}</div>
+                        <div className="post-date">{post.date}</div> 
                     </div>
                     <section className="answers">
                         <u1>{

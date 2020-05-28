@@ -7,7 +7,8 @@ const posts = [
         'image': 'https://www.insidehighered.com/sites/default/server_files/styles/large-copy/public/media/Cornell%20Tech%20Campus%205%20CREDIT%20IWAN%20BAAN.jpg?itok=EUrC7iTe',
         'sections': [
             {
-                'answer':'I graduated from Cornell Tech a year ago with a Masters in Computer Science. During my time there, I was a Student Ambassador and led tours and panels for prospective students. Since then, a handful of prospectives reached out to me to ask questions. I would like to answer their most common questions. I had a great experience at Cornell Tech, and I would to share it with you!'
+                'question':'Why are you writing this post?',
+                'answer':'I graduated from Cornell Tech a year ago with a Masters in Computer Science. During my time there, I was a Student Ambassador and led tours and panels for prospective students. Since then, a handful of prospectives reached out to me to ask questions. I would like to answer their most common questions. I had a great experience at Cornell Tech, and I would like to share it with you!'
             },
             {
                 'question':'What made you choose Cornell Tech?',
@@ -48,7 +49,9 @@ const posts = [
             },
             {
                 'question': "Are there any scholarships?",
-                'answer': "I was afforded 2 scholarships. One was a merit-based scholarship that Cornell Tech offered me along with my acceptance. This did not require a separate scholarship application. The other was through Women in Technology and Entrepreneurship in New York (WiTNY). They offer 3 scholarships each year to those that identify as women and are in the Computer Science, Operation Research, and Electrical Engineering programs specifically for Cornell Tech. They send you an application after you apply. I am not sure how applying at later rounds affects the likelihood of getting a scholarship.",
+                'answer': "I was afforded 2 scholarships. One was a merit-based scholarship that Cornell Tech offered me along with my acceptance. This did not require a separate scholarship application. The other was through Women in Technology and Entrepreneurship in New York (WiTNY). They offer 3 scholarships each year to those that identify as women and are in the Computer Science, Operation Research, and Electrical Engineering programs specifically for Cornell Tech. They send you an application after you apply. I am not sure how applying at later rounds affects the likelihood of getting a scholarship."
+            },
+            {
 
                 'question': "What is WiTNY?",
                 'answer': "I would definitely recommend everyone get involved with Women in Technology and Entrepreneurship in New York (WiTNY) now known as Break Through Tech! There are events for women on campus and ways to volunteer to help CUNY students. I continue to volunteer by helping CUNY women with resume reviews. <b>You do not have to be a woman to mentor women.</b> Given that tech is mostly composed of men, it is imperative that men serve as mentors. When I went to CT, the Computer Science program was only 25% women. Though typical of tech, it sucks! Especially in a small school, I was often the only woman in a room. I encourage women to apply, and we can all work togehter to make the field more inclusive!"

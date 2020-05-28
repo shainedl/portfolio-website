@@ -1,5 +1,4 @@
-import React from 'react'; // Import the Component component from React
-import ReactPlayer from 'react-player';
+import React from 'react';
 import YouTube from '@u-wave/react-youtube';
 import './App.css';
  

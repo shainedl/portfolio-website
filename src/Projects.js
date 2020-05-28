@@ -1,8 +1,10 @@
 import React from "react"
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
+import { PDFDownloadLink, Document, Page } from 'react-pdf'
 import './App.css';
  
 function Projects(props) {
+
   return (
     <div>
       <h1>PROJECTS</h1>

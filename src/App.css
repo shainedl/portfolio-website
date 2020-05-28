@@ -1,52 +1,50 @@
 .App {
-  text-align: center;
-  background:
-  radial-gradient(pink 3px, transparent 4px),
-  radial-gradient(pink 3px, transparent 4px),
-  linear-gradient(white 4px, transparent 0),
-  linear-gradient(45deg, transparent 74px, transparent 75px, #816565 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
-  linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
-  white;
-  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
-  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
-  color: darkmagenta;
-  text-shadow: -1px 1px 1px black;
+  text-align: center; 
+  background: linear-gradient(#0D6EFF, #7E12B3);
+  color:#FFDD00;
+  text-shadow: -3px 6px 8px black;
   font-family: Haettenschweiler, 'Arial Narrow Bold', serif;
-  padding: 5px;
-  padding-top: 20vw;
+  padding-top: 25vh;
+  
 }
+
+
 
 h1 {
   font-size: 3vw;
-  text-shadow: -2px 2px 2px black;
-  border: 15px ridge plum;
+  text-shadow: -8px 10px 10px black;
+  border: 15px ridge #FFDF00	 /*#f4c815*/;
   display: inline-block;
-  padding: 30px; 
+  padding: 1.5vh; 
+}
+
+.Header_title{
+  font-size: 6vh;
+  border:none;
+  padding: 0px;
 }
 
 .project{
-  
-  flex-wrap: wrap;
-  padding: 30px; 
-  background: white;
-  font-family: Haettenschweiler, 'Arial Narrow Bold', serif;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   
 }
 
 .player, img{
-  border: 15px ridge plum; 
-  width: 50vw;
-  height: 40vh;
+  border: 15px ridge #FFDF00; 
+  width: 90vw;
+  height: 50vh;
+  box-shadow: -1vh 3vw 7vh black;
 }
 
 
-.project-category, .post-title, .post-date-page{
+.project-category, .post-title{
   font-size: 3vw;
+  padding-top: 7vh; 
 }
 
 .project-title, .post-date{
   font-size: 2vw;
-  padding: 5px; 
+  padding-bottom: 7vh; 
 }
 .post-description{
   font-size: 2vw;
@@ -62,57 +60,61 @@ h1 {
 .blog_posts{
   display: block;
   justify-content: space-around;
-  padding-bottom: 10vh;
+  padding-top: 5vh;
+  color:#f9cad7;
+  
+
 }
+
+.PostPreview {
+  text-decoration: none;
+}
+
 
 .navigation{
   font-size: 2vw;
-  border-bottom: 15px ridge plum;
   display: flex;
-  padding: 30px; 
-  
   
 }
 
 .navigation a {
-  color:darkmagenta;
+  color:#FFDF00;
   text-decoration: none;
   padding: 50px; 
 }
 
-.navigation a:hover,  .post-title a:hover{
-  color:fuchsia;
+.navigation a:hover{
+  color:#f9cad7;
+  position: relative; 
+  top: -1vh;
 }
 
 .answers{
+  border: 1vh ridge #FFDF00;
   color: black;
   background: white;
   font-size: 3em;
   text-shadow: none;
   text-align: left; 
-  padding: 40px;
+  padding-left: 3vw;
+  padding-right: 3vw;
   font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  border-left: 15px ridge darkmagenta;
-  border-right: 15px ridge darkmagenta;
+  border-left: 15px ridge f4c815;
+  border-right: 15px ridge f4c815;
   display: flex;
 }
 
-h2, h3, .post-title-page{
-  color: darkmagenta;
-  text-shadow: -1px 1px 1px black;
+h2, h3{
+  color:#f9cad7;
 }
 
-img{
-  max-width: 100%;
-  height: auto;
-}
 
 .opener{
   color: darkmagenta;
-  text-shadow: -1px 1px 1px black;
+  
   display: block;
   font-family: Haettenschweiler, 'Arial Narrow Bold', serif;
-  padding: 5px;
+  padding-bottom: 3vh;
   text-align: center;
 }
 
@@ -120,11 +122,21 @@ li {
   list-style-type : '';
 }
 
-.post-title-page{
-  font-size: 100px;
-  padding: 30px;
+.post{
+  padding:4vw;
 }
 
-.post-description-page{
-  font-size: 60px;
+a img:hover{ 
+  position: relative; 
+  top: -1vh;
+}
+
+.home{
+  background-image: url("./data/code.png");
+}
+
+
+.ReactStickyHeader_midground {
+  
+  border: 1vh ridge #FFDF00;
 }
