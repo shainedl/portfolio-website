@@ -1,39 +1,42 @@
 import React from 'react';
 // Import the BrowserRouter, Route and Link components
-import { HashRouter, Route, Link, Switch } from 'react-router-dom'; 
-import Projects from './Projects.js'; 
-import Blog from './Blog.js'; 
-import About from './About.js'; 
+import { BrowserRouter, Route, Link, Switch } from 'react-router-dom'; 
+import Projects from './Projects'; 
+import Blog from './Blog'; 
+import About from './About'; 
+import PostPage from './PostPage';
 import './App.css';
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
 
-    <div className="App">
-      <div className="navigation">
-        <div>
-          <Link to="/" className="item">PROJECTS</Link>
+      <div className="App">
+        <div className="navigation">
+          <div>
+            <Link to="/">PROJECTS</Link>
+          </div>
+          <div>
+            <Link to="/blog">BLOG</Link>
+          </div>
+          <div>
+            <Link to="/about">ABOUT</Link>
+          </div>
         </div>
-        <div>
-          <Link to="/blog" className="item">BLOG</Link>
-        </div>
-        <div>
-          <Link to="/about" className="item">ABOUT</Link>
-        </div>
+
+        <Switch>
+          <Route exact path="/" component={Projects} />
+          <Route path="/blog/:id" component={PostPage} />
+          <Route path="/blog" component={Blog} />
+          <Route path="/about" component={About} />
+        </Switch>
+          
+
       </div>
-      
-
-      <Switch>
-        <Route exact path="/" component={Projects} />
-        <Route path="/blog" component={Blog} />
-        <Route path="/about" component={About} />
-      </Switch>
-        
-
-  </div>
-  </HashRouter>
+    </BrowserRouter>
   );
 }
 
 export default App;
+
+/**/

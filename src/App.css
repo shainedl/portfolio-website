@@ -4,7 +4,7 @@
   radial-gradient(pink 3px, transparent 4px),
   radial-gradient(pink 3px, transparent 4px),
   linear-gradient(white 4px, transparent 0),
-  linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+  linear-gradient(45deg, transparent 74px, transparent 75px, #816565 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
   linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
   white;
   background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
@@ -35,18 +35,23 @@ h1 {
   
 }
 
-.project-video{
+.project-video, img{
   border: 15px ridge plum; 
+  
   
 }
 
-.project-title{
+
+.project-category, .post-title, .post-date-page{
+  font-size: 50px;
+}
+
+.project-title, .post-date{
   font-size: 40px;
   padding: 5px; 
 }
-
-.project-category{
-  font-size: 50px;
+.post-description{
+  font-size: 40px;
 }
 
 .thumbnails{
@@ -72,21 +77,51 @@ h1 {
   padding: 50px; 
 }
 
-.navigation a:hover {
+.navigation a:hover,  .post-title a:hover{
   color:fuchsia;
 }
 
-.post{
+.answers{
   color: black;
   background: white;
-  font-size: 2em;
+  font-size: 3em;
   text-shadow: none;
-  text-align: left;
-  padding: 30px; 
+  text-align: left; 
+  padding: 40px;
   font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-left: 15px ridge darkmagenta;
+  border-right: 15px ridge darkmagenta;
+  display: flex;
 }
 
-h2, h3{
+h2, h3, .post-title-page{
   color: darkmagenta;
   text-shadow: -1px 1px 1px black;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.opener{
+  color: darkmagenta;
+  text-shadow: -1px 1px 1px black;
+  display: block;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', serif;
+  padding: 5px;
+  text-align: center;
+}
+
+li {
+  list-style-type : '';
+}
+
+.post-title-page{
+  font-size: 100px;
+  padding: 30px;
+}
+
+.post-description-page{
+  font-size: 60px;
 }
