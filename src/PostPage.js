@@ -1,6 +1,7 @@
 import React from 'react';
 import posts from './data/posts';
 import Content from './Content';
+import PostMenu from './PostMenu';
 
 function PostPage(props){
 
@@ -11,6 +12,9 @@ function PostPage(props){
         <div>
             <div className="post">
                 <div>
+                    <div className="post-menu">
+                        <PostMenu posts={posts}/>
+                    </div>
                     <div className="opener">
                         <div className="post-title-p">{post.title}</div>
                         <div className="post-description">{post.description}</div>
