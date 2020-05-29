@@ -2,17 +2,17 @@
   text-align: center; 
   background: #1a1a1d;
   color: #f8f8ff;
-  text-shadow: -2px 6px 8px black;
+  text-shadow: -2px 2px 2px #f8f8ff;
   font-family: Haettenschweiler, 'Arial', sans-serif;
   padding-top: 25vh;
-  
+  padding-bottom: 10vh;
 }
 
 
 
 h1 {
   font-size: 5vh;
-  text-shadow: -5px 10px 10px black;
+  
   display: inline-block;
   padding: 1.5vh; 
 }
@@ -53,13 +53,13 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 30px;
+  
 }
 
 .blog_posts{
   display: block;
   justify-content: space-around;
-  padding-top: 5vh;
+  
   color:#f8f8ff;
   
 
@@ -79,33 +79,33 @@ h1 {
 .navigation a {
   color:#f8f8ff;
   text-decoration: none;
-  padding: 50px; 
+  padding: 2vw; 
 }
 
 .navigation a:hover{
   color:#d83f87;
   position: relative; 
   top: -1vh;
+  text-shadow: -2px 2px 2px #d83f87;
 }
 
 .answers{
   border: 1vh ridge #d83f87;
-  color: black;
-  background: #f8f8ff;
+  
   font-size: 3em;
-  text-shadow: -1px 1px black;
+  
   text-align: left; 
   padding-left: 3vw;
   padding-right: 3vw;
   font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  border-left: 15px ridge f4c815;
-  border-right: 15px ridge f4c815;
+  border-left: 1vh ridge f4c815;
+  border-right: 1vh ridge f4c815;
   display: flex;
 }
 
 h2, h3{
   color:#d83f87;
-  
+  text-shadow: -2px 2px 2px #d83f87;
 }
 
 
@@ -129,6 +129,12 @@ a img:hover{
   top: -1vh;
 }
 
+.home{
+  font-size: 10vh;
+  padding: 20vh;
+  text-align: center; 
+  
+}
 
 
 .ReactStickyHeader_midground {
