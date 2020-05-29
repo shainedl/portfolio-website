@@ -11,26 +11,26 @@ function Projects(props) {
         <div className="thumbnails">
             <Thumbnail
                 video="njvg-jnGTHc"
-                title="Mutant Teenage Arachnid Revolution"
-                category="Virtual Reality"
+                title="MTAR"
+                category="VIRTUAL REALITY"
             />
             
             <Thumbnail
                 video="GyMDabpqGh0"
-                title="LumiVote"
-                category="Website Development"
+                title="LUMIVOTE"
+                category="WEB DEVELOPMENT"
             />
 
             <Thumbnail
                 video="ql0CleL4kDs"
-                title="Disco Party in MakerLAB"
-                category="Virtual Reality"
+                title="MAKERLAB DISCO PARTY"
+                category="VIRTUAL REALITY"
             />
 
             <Thumbnail
                 video="X_eonFkd9ug"
-                title="Freeze Pitch"
-                category="Presentation"
+                title="FREEZE PITCH"
+                category="PRESENTATION"
             />
 
         </div>

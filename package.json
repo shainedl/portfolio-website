@@ -8,7 +8,9 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "@u-wave/react-youtube": "^0.7.1",
+    "d3-tagcloud-for-react": "^1.0.2",
     "gh-pages": "^2.2.0",
+    "randomcolor": "^0.5.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-markdown": "^4.3.1",
@@ -19,7 +21,9 @@
     "react-scripts": "3.4.1",
     "react-scroll": "^1.7.16",
     "react-sidenav": "^4.0.6",
-    "react-sticky-header": "^0.2.0"
+    "react-sticky-header": "^0.2.0",
+    "react-tag-cloud": "^1.3.2",
+    "react-typical": "^0.1.3"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -29,7 +29,7 @@ function App() {
             </ul>
           </div>
           }
-          backgroundColor={'#8860d0'}
+          backgroundColor={'#1a1a1d'}
         >
 
         </StickyHeader>

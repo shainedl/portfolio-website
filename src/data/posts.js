@@ -54,7 +54,7 @@ const posts = [
             {
 
                 'question': "What is WiTNY?",
-                'answer': "I would definitely recommend everyone get involved with Women in Technology and Entrepreneurship in New York (WiTNY) now known as Break Through Tech! There are events for women on campus and ways to volunteer to help CUNY students. I continue to volunteer by helping CUNY women with resume reviews. <b>You do not have to be a woman to mentor women.</b> Given that tech is mostly composed of men, it is imperative that men serve as mentors. When I went to CT, the Computer Science program was only 25% women. Though typical of tech, it sucks! Especially in a small school, I was often the only woman in a room. I encourage women to apply, and we can all work togehter to make the field more inclusive!"
+                'answer': "I would definitely recommend everyone get involved with Women in Technology and Entrepreneurship in New York (WiTNY) now known as Break Through Tech! There are events for women on campus and ways to volunteer to help CUNY students. I continue to volunteer by helping CUNY women with resume reviews. You do not have to be a woman to mentor women. Given that tech is mostly composed of men, it is imperative that men serve as mentors. When I went to CT, the Computer Science program was only 25% women. Though typical of tech, it sucks! Especially in a small school, I was often the only woman in a room. I encourage women to apply, and we can all work togehter to make the field more inclusive!"
             },
             {
                 'question': "How much experience do students typically have coming into the program?",

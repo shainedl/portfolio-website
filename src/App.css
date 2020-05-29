@@ -1,9 +1,9 @@
 .App {
   text-align: center; 
-  background: radial-gradient(#5ab9ea, #8860d0);
-  color:#FFC247;
-  text-shadow: -2px 6px 8px #806124;
-  font-family: Haettenschweiler, 'Arial Narrow Bold', serif;
+  background: #1a1a1d;
+  color: #f8f8ff;
+  text-shadow: -2px 6px 8px black;
+  font-family: Haettenschweiler, 'Arial', sans-serif;
   padding-top: 25vh;
   
 }
@@ -11,35 +11,30 @@
 
 
 h1 {
-  font-size: 3vw;
-  text-shadow: -5px 10px 10px #806124;
-  border: 15px ridge #FF9B54	 /*#f4c815*/;
+  font-size: 5vh;
+  text-shadow: -5px 10px 10px black;
   display: inline-block;
   padding: 1.5vh; 
 }
 
 .Header_title{
   font-size: 6vh;
-  border:none;
   padding: 0px;
 }
 
-.project{
-  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
-}
-
 .player, img{
-  border: 1vh ridge #FF9B54; 
-  width: 90vw;
+  border: 1vh ridge #d83f87; 
+  width: 80vw;
   height: 50vh;
-  box-shadow: -1vh 3vw 7vh #804E2A;
+  -webkit-box-shadow: 0px 5vh 7vh -5vh black, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 5vh 7vh -5vh black, 5px 5px 15px 5px rgba(0,0,0,0);
+
 }
 
 
 .project-category, .post-title{
   font-size: 3vw;
-  padding-top: 7vh; 
+  padding-top: 3vh; 
 }
 
 .post-title-p{
@@ -65,7 +60,7 @@ h1 {
   display: block;
   justify-content: space-around;
   padding-top: 5vh;
-  color:#FFC247;
+  color:#f8f8ff;
   
 
 }
@@ -82,23 +77,23 @@ h1 {
 }
 
 .navigation a {
-  color:#FFC247;
+  color:#f8f8ff;
   text-decoration: none;
   padding: 50px; 
 }
 
 .navigation a:hover{
-  color:#FF9B54;
+  color:#d83f87;
   position: relative; 
   top: -1vh;
 }
 
 .answers{
-  border: 1vh ridge #FF9B54;
+  border: 1vh ridge #d83f87;
   color: black;
-  background: white;
+  background: #f8f8ff;
   font-size: 3em;
-  text-shadow: -1px 3px #804E2A;
+  text-shadow: -1px 1px black;
   text-align: left; 
   padding-left: 3vw;
   padding-right: 3vw;
@@ -109,7 +104,7 @@ h1 {
 }
 
 h2, h3{
-  color:#FFC247;
+  color:#d83f87;
   
 }
 
@@ -134,12 +129,9 @@ a img:hover{
   top: -1vh;
 }
 
-.home{
-  background-image: url("./data/code.png");
-}
 
 
 .ReactStickyHeader_midground {
   
-  border: 1vh ridge #FF9B54;
+  border-bottom: 1vh ridge #d83f87;
 }
