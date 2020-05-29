@@ -4,6 +4,7 @@ const posts = [
         'title': 'Cornell Tech CS Masters',
         'description': 'A Guide for Prospective Students',
         'date': 'May 27, 2020',
+        /*Image sourced*/
         'image': 'https://www.insidehighered.com/sites/default/server_files/styles/large-copy/public/media/Cornell%20Tech%20Campus%205%20CREDIT%20IWAN%20BAAN.jpg?itok=EUrC7iTe',
         'sections': [
             {
@@ -74,6 +75,7 @@ const posts = [
         'title': 'The Book Is On The Table',
         'description': 'First Post!',
         'date': 'May 27, 2020',
+        /*Image sourced*/
         'image': 'https://now.tufts.edu/sites/default/files/180625_summer_books_lg.jpg',
         'sections': [
             {

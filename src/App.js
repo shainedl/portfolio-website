@@ -1,3 +1,6 @@
+/* Helpful for developing in React 
+https://www.framer.com/blog/posts/react-portfolio/ */
+
 import React from 'react';
 // Import the BrowserRouter, Route and Link components
 import { BrowserRouter, Route, Link, Switch } from 'react-router-dom'; 
@@ -8,9 +11,10 @@ import PostPage from './PostPage';
 import 'react-sticky-header/styles.css';
 import StickyHeader from 'react-sticky-header';
 import './App.css';
+
+/* https://zamarrowski.github.io/react-ionicons/ */
 import LogoLinkedin from 'react-ionicons/lib/LogoLinkedin';
 import LogoGithub from 'react-ionicons/lib/LogoGithub';
-import IosMailOpen from 'react-ionicons/lib/IosMailOpen';
 
 function App() {
   return (

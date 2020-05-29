@@ -1,3 +1,6 @@
+/* Helpul in creating the Blog 
+https://github.com/lmammino/judo-heroes-2 */
+
 import React from "react"
 import { Link } from 'react-router-dom';
  
