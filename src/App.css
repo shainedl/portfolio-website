@@ -146,5 +146,6 @@ a img:hover{
 .post-menu{
   display: flex;
   padding-bottom: 1vh;
+  font-size: 1vw;
 }
 
