@@ -82,6 +82,10 @@ h1 {
   padding: 2vw; 
 }
 
+.logo_link{
+  padding-left: 2vw; 
+}
+
 .navigation a:hover{
   color:#d83f87;
   position: relative; 
@@ -141,3 +145,5 @@ a img:hover{
   
   border-bottom: 1vh ridge #d83f87;
 }
+
+

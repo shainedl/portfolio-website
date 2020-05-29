@@ -8,6 +8,9 @@ import PostPage from './PostPage';
 import 'react-sticky-header/styles.css';
 import StickyHeader from 'react-sticky-header';
 import './App.css';
+import LogoLinkedin from 'react-ionicons/lib/LogoLinkedin';
+import LogoGithub from 'react-ionicons/lib/LogoGithub';
+import IosMailOpen from 'react-ionicons/lib/IosMailOpen';
 
 function App() {
   return (
@@ -24,7 +27,11 @@ function App() {
             <li className="Header_link"><Link to="/">HOME</Link></li>
               <li className="Header_link"><Link to="/projects">PROJECTS</Link></li>
               <li className="Header_link"><Link to="/blog">BLOG</Link></li>
-            </ul>
+              <li className="logo_link">ShaineDL@gmail.com</li>
+              <li className="logo_link"><LogoLinkedin onClick={() => window.location.href = 'https://www.linkedin.com/in/shaine-leibowitz/'} fontSize="2vw" color="#f8f8ff"/></li>
+              <li className="logo_link"><LogoGithub onClick={() => window.location.href = 'https://github.com/shainedl'} fontSize="2vw" color="#f8f8ff"/></li>
+              
+              </ul>
           </div>
           }
           backgroundColor={'#1a1a1d'}
