@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ShaineLeibowitz/static/css/main.e13b7ba0.chunk.css",
+    "main.css": "/ShaineLeibowitz/static/css/main.ef9ee90f.chunk.css",
     "main.js": "/ShaineLeibowitz/static/js/main.f63f925a.chunk.js",
     "main.js.map": "/ShaineLeibowitz/static/js/main.f63f925a.chunk.js.map",
     "runtime-main.js": "/ShaineLeibowitz/static/js/runtime-main.223354d8.js",
@@ -9,17 +9,17 @@
     "static/js/2.741a2728.chunk.js": "/ShaineLeibowitz/static/js/2.741a2728.chunk.js",
     "static/js/2.741a2728.chunk.js.map": "/ShaineLeibowitz/static/js/2.741a2728.chunk.js.map",
     "index.html": "/ShaineLeibowitz/index.html",
-    "precache-manifest.c544315004b01988c878c84fc67e7717.js": "/ShaineLeibowitz/precache-manifest.c544315004b01988c878c84fc67e7717.js",
+    "precache-manifest.06c2a5d0c56e8f8aef3170d1598237f4.js": "/ShaineLeibowitz/precache-manifest.06c2a5d0c56e8f8aef3170d1598237f4.js",
     "service-worker.js": "/ShaineLeibowitz/service-worker.js",
     "static/css/2.7f83aeb6.chunk.css.map": "/ShaineLeibowitz/static/css/2.7f83aeb6.chunk.css.map",
-    "static/css/main.e13b7ba0.chunk.css.map": "/ShaineLeibowitz/static/css/main.e13b7ba0.chunk.css.map",
+    "static/css/main.ef9ee90f.chunk.css.map": "/ShaineLeibowitz/static/css/main.ef9ee90f.chunk.css.map",
     "static/js/2.741a2728.chunk.js.LICENSE.txt": "/ShaineLeibowitz/static/js/2.741a2728.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.223354d8.js",
     "static/css/2.7f83aeb6.chunk.css",
     "static/js/2.741a2728.chunk.js",
-    "static/css/main.e13b7ba0.chunk.css",
+    "static/css/main.ef9ee90f.chunk.css",
     "static/js/main.f63f925a.chunk.js"
   ]
 }
