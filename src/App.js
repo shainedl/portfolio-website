@@ -3,7 +3,7 @@ https://www.framer.com/blog/posts/react-portfolio/ */
 
 import React from 'react';
 // Import the BrowserRouter, Route and Link components
-import { BrowserRouter, Route, Link, Switch } from 'react-router-dom'; 
+import { BrowserRouter, Route, Link, Switch, HashRouter } from 'react-router-dom'; 
 import Home from './Home';
 import Projects from './Projects'; 
 import Blog from './Blog'; 
@@ -19,7 +19,7 @@ import LogoGithub from 'react-ionicons/lib/LogoGithub';
 function App() {
   return (
 
-    <BrowserRouter>
+    <HashRouter>
 
       <div className="App">
         <StickyHeader
@@ -54,7 +54,7 @@ function App() {
 
 
       </div>
-    </BrowserRouter>
+    </HashRouter>
 
     
   );
