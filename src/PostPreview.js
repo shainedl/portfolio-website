@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function PostPreview(props) {
 
   return (
-    <Link to={`/ShaineLeibowitz/blog/${props.id}`} style={{ textDecoration: 'none' }} activeStyle={{color: 'red'}}>
+    <Link to={`/blog/${props.id}`} style={{ textDecoration: 'none' }} activeStyle={{color: 'red'}}>
         <div className="blog_posts">
             <img src={props.image} alt="Post"/>
             <div className="post-title">{props.title}</div>

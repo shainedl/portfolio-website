@@ -3,7 +3,7 @@ import { Route, Link } from 'react-router-dom';
 
 
 const PostMenuLink = ({ id, to, label }) => (
-  <Route path={`/ShaineLeibowitz/blog/${id}`}>
+  <Route path={`/blog/${id}`}>
     {({ match }) => (
       <Link to={to} className={match ? 'active' : ''}>{label}</Link>
     )}
@@ -14,7 +14,7 @@ export const PostMenu = ({ posts }) => (
   <navigation className="posts-menu">
     {
       posts.map(post =>
-        <PostMenuLink key={post.id} id={post.id} to={`/ShaineLeibowitz/blog/${post.id}`} label={post.title} />,
+        <PostMenuLink key={post.id} id={post.id} to={`/blog/${post.id}`} label={post.title} />,
       )
     }
   </navigation>
