@@ -85,7 +85,7 @@ const posts = [
             },
             {
                 'question':'Why am I writing this blog?',
-                'answer':"I am opinionated and pretty good at giving advice. With a background in mentorship, I believe I could inform based on what I've learned from my experiences. For the next couple of posts I plan to advise on applying to Cornell Tech and resume advice for entry level positions. I also want to write about things I care about like gender equality in tech. I hope you find this blog helpful and take away what's best for you!"
+                'answer':"I am opinionated and give insightful advice. With a background in mentorship, I believe I could inform based on what I've learned from my experiences. For the next couple of posts I plan to advise on applying to Cornell Tech and resume advice for entry level positions. I also want to write about things I care about like gender equality in tech. I hope you find this blog helpful and take away what's best for you!"
             },
             {
                 'question':"Best advice I didn't take",
