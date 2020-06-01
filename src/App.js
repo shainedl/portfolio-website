@@ -10,10 +10,10 @@ import PostPage from './PostPage';
 import 'react-sticky-header/styles.css';
 import StickyHeader from 'react-sticky-header';
 import './App.css';
-
 /* https://zamarrowski.github.io/react-ionicons/ */
 import LogoLinkedin from 'react-ionicons/lib/LogoLinkedin';
 import LogoGithub from 'react-ionicons/lib/LogoGithub';
+import pdfFile from './data/ShaineLeibowitz_Resume.pdf';
 
 function App() {
   return (
@@ -30,6 +30,7 @@ function App() {
             <li className="Header_link"><Link to="/">HOME</Link></li>
               <li className="Header_link"><Link to="/projects">PROJECTS</Link></li>
               <li className="Header_link"><Link to="/blog">BLOG</Link></li>
+              <li className="Header_link"><a href={pdfFile}>RESUME</a></li>
               <li className="logo_link">ShaineDL@gmail.com</li>
               <li className="logo_link"><LogoLinkedin onClick={() => window.location.href = 'https://www.linkedin.com/in/shaine-leibowitz/'} fontSize="2vw" color="#f8f8ff"/></li>
               <li className="logo_link"><LogoGithub onClick={() => window.location.href = 'https://github.com/shainedl'} fontSize="2vw" color="#f8f8ff"/></li>
@@ -47,6 +48,7 @@ function App() {
           <Route path="/projects" component={Projects} />
           <Route path="/blog/:id" component={PostPage} />
           <Route path="/blog" component={Blog} />
+          <Route path="/file" component={File} />
         </Switch>
         
 

@@ -139,7 +139,7 @@ a img:hover{
   text-align: center; 
   position: relative;
   top: 10vh;
-  
+
 }
 
 .ReactStickyHeader_midground {
@@ -152,3 +152,6 @@ a img:hover{
   font-size: 2vh;
 }
 
+.research_paper{
+  text-shadow: none;
+}
