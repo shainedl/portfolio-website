@@ -12,12 +12,12 @@ https://visme.co/blog/website-color-schemes/ */
 }
 
 
-
 h1 {
   font-size: 5vh;
   display: inline-block;
   padding: 1.5vh; 
 }
+
 
 .Header_title{
   font-size: 6vh;
@@ -33,7 +33,6 @@ h1 {
 
 }
 
-
 .project-category, .post-title{
   font-size: 4vh;
   padding-top: 3vh; 
@@ -47,36 +46,33 @@ h1 {
   font-size: 3vh;
   padding-bottom: 7vh; 
 }
+
 .post-description{
   font-size: 3vh;
 }
+
 
 .thumbnails{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  
 }
 
 .blog_posts{
   display: block;
   justify-content: space-around;
   color:#f8f8ff;
-  
-
 }
 
 .PostPreview {
   text-decoration: none;
 }
 
-
 .navigation{
   font-size: 3vh;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  
 }
 
 .navigation a, .post-menu a {
@@ -113,7 +109,6 @@ h3{
   text-shadow: -.1vh .1vh .1vh #d83f87;
 }
 
-
 .opener{
   color: FFC247;
   display: block;
@@ -139,7 +134,6 @@ a img:hover{
   text-align: center; 
   position: relative;
   top: 10vh;
-
 }
 
 .ReactStickyHeader_midground {

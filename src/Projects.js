@@ -1,6 +1,8 @@
 import React from "react"
 import Thumbnail from './Thumbnail.js'; // Import the Thumbnail component
 import pdfFile from './data/Leibowitz_Final.pdf';
+import title_page from './data/story_pages/title_page.png';
+import { Link } from 'react-router-dom';
 import './App.css';
  
 function Projects(props) {
@@ -43,9 +45,14 @@ function Projects(props) {
                 title="FREEZE PITCH"
                 category="PRESENTATION"
             />
-
+        <div>
+        <Link to={`/story`} style={{ textDecoration: 'none' }} activeStyle={{color: 'red'}}>
+          <img src={title_page} alt="Title"/>
+        </Link>
+          <div className="project-category">CREATIVE WRITING</div>
+          <div className="project-title">A FAIRY GOOD STORY</div>
         </div>
-
+        </div>
     </div>
   )
 }

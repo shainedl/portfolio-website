@@ -7,6 +7,7 @@ import Home from './Home';
 import Projects from './Projects'; 
 import Blog from './Blog'; 
 import PostPage from './PostPage';
+import Story from './Story';
 import 'react-sticky-header/styles.css';
 import StickyHeader from 'react-sticky-header';
 import './App.css';
@@ -46,6 +47,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/projects" component={Projects} />
+          <Route path="/story" component={Story} />
           <Route path="/blog/:id" component={PostPage} />
           <Route path="/blog" component={Blog} />
           <Route path="/file" component={File} />
