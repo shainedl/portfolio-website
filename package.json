@@ -2,7 +2,6 @@
   "name": "shaine-leibowitz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shainedl.github.io/ShaineLeibowitz",
   "scripts": {
     "dev": "next",
     "build": "next build",
