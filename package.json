@@ -1,9 +1,10 @@
 {
-  "name": "learn-starter",
+  "name": "shaine-leibowitz",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://shainedl.github.io/ShaineLeibowitz",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start"
   },
