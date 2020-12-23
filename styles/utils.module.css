@@ -63,11 +63,10 @@
     background: #181818;
     top: 0;
     left: 0;
-    box-shadow: 0rem .2rem .2rem #ff6ec7;
     animation: moveDown 0.5s ease-in-out;
     height: 5rem; 
     width: 100%;
-    
+    box-shadow: 0rem .2rem #ff6ec7;
     
   }
 
@@ -85,6 +84,7 @@
     width: auto;
     height: 1.4rem;
     text-align: center;
+    right: 0;
   }
 
   .project{
@@ -96,4 +96,19 @@
   .pdf, .story{
     margin-top: 2rem;
     margin-bottom: 1rem;
+  }
+
+  .home{
+  
+	
+  /* Set up proportionate scaling */
+  
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 5.2rem;
+  left: 0;
+
+    /* background-image: url("/images/home_page.png"); */
   }

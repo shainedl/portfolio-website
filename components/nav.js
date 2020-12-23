@@ -23,7 +23,6 @@ export default function Nav() {
                 <li>
                     <a href='/data/ShaineLeibowitz_Resume.pdf'>Resume</a>
                 </li>       
-
                 <li>
                     <a href="https://github.com/shainedl">
                         <img
