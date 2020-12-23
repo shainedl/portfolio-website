@@ -17,6 +17,7 @@ export default function Projects(props) {
                 <img 
                     src='https://daib13.github.io/blogs/20180725_vae_imgs/graphical_model.png'
                     alt="Paper"
+                    width="480"
                     className={`${utilStyles.project}`}>
                 </img>
             </a>
@@ -43,6 +44,7 @@ export default function Projects(props) {
             <img 
                 src='/story_pages/title_page.png' 
                 alt="Title"
+                width="480"
                 className={`${utilStyles.project}`}>
             </img>
             </Link>
