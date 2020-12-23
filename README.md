@@ -1,1 +1,1 @@
-Personal website built in Next.js
+Shaine Leibowitz's portfolio website which can be found [here](https://shainedl.vercel.app/). The website was built in Next.js
