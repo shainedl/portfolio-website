@@ -15,7 +15,7 @@
   }
   
   .headingLg {
-    font-size: 1.rem;
+    font-size: 1.5rem;
     line-height: 1.4;
     margin: 1rem 0;
     font-weight: 800;
@@ -23,7 +23,7 @@
   
   .headingMd {
     font-size: 1.2rem;
-    line-height: 1.5;
+    
     font-weight: 800;
   }
   
@@ -58,39 +58,39 @@
   }
 
   .nav {
-    align-items: center; 
+   
     position: fixed;
     background: #181818;
-    padding-top: 20vh;
-    padding-bottom: 20vh;
+    top: 0;
     left: 0;
-    bottom:0 ;
-    box-shadow: 1.5px 1.5px 1.5px #ff6ec7;
+    box-shadow: 0rem .2rem .2rem #ff6ec7;
     animation: moveDown 0.5s ease-in-out;
-    height: 100vh; 
-    width: 14vw;
-    overflow-x: hidden;
-    text-align: center;
+    height: 5rem; 
+    width: 100%;
+    
+    
   }
 
-  .nav a {
+  .nav a{
+    float: left;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 800;
+    display: block;
+    padding: 0.5rem;
+    
   }
   
   .logo {
-    width: 3vw;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 1rem;
+    width: auto;
+    height: 1.4rem;
+    text-align: center;
   }
 
   .project{
     border: 0.4rem double #ff6ec7; 
-    width: 50vw;
-    height: 40vh;
+    width: 720px;
+    height: 480px;
     margin-bottom: .8vh;
     
   }

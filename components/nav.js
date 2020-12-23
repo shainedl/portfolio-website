@@ -23,6 +23,7 @@ export default function Nav() {
                 <li>
                     <a href='/data/ShaineLeibowitz_Resume.pdf'>Resume</a>
                 </li>       
+
                 <li>
                     <a href="https://github.com/shainedl">
                         <img
@@ -40,9 +41,6 @@ export default function Nav() {
                             className={`${utilStyles.logo}`}
                         />
                     </a>
-                </li>
-                <li>
-                    <h3 className={utilStyles.headingLg}>ShaineDL<br/>@gmail.com</h3>
                 </li>
             </ul>
         </nav>

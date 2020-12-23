@@ -14,6 +14,8 @@ export default function Home({ allPostsData }) {
         <h2 className={utilStyles.heading2Xl}>{siteTitle}</h2>
         <h2 className={utilStyles.headingXl}>Data Scientist</h2>
       <div className={styles.backToHome}>Website designed and built by me using Next.js</div>
+      <div className={styles.backToHome}>Please contact me by emailing ShaineDL@gmail.com</div>
+
     </Layout>
   )
 }
