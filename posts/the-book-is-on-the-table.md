@@ -1,6 +1,7 @@
 ---
 title: 'The Book Is On The Table'
 date: '2020-05-29'
+source: 'https://images.unsplash.com/photo-1587262538177-842ad13e290c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80'
 ---
 
 
@@ -18,4 +19,4 @@ I've spent this week designing and building this website. Let's begin my advice 
 
 The first few iterations of my website contained pastel on top of pastel on top of pastel. Looked like something a kindergardener would hand in. Then, I tried going in the opposite direction and looked up which colors were the most well-liked based on marketing and psychology. Apparently, blue is trustworthy and a favorite amongst a high percentage of people. As a complementary color, orange pairs well as an accent to blue. Blue and orange? But that doesn't include pink or purple at all!
 
-After several iterations and commits entitled 'changed the color scheme again', I settled on the one that I did. I think it's important to know your audience, but I also think that a personal website should display your personality. A friend told me a basic practice in choosing a color scheme is to start with one color and then choose the rest of the color scheme based off that one color. So, my advice for a personal website is choose the first color that you have an emotional attachment to but don't choose all your colors based off an emotional attachment. As you can see, there is pink in this website. Purple didn't make the cut. The pink may only be an accent color, but it's there!
+After several iterations and commits entitled 'changed the color scheme again', I settled on the one that I did. I think it's important to know your audience, but I also think that a personal website should display your personality. A friend told me a basic practice in choosing a color scheme is to start with one color and then choose the rest of the color scheme based off that one color. So, my advice for a personal website is choose the first color that you have an emotional attachment to but don't choose all your colors based off an emotional attachment. As you can see, there is pink in this website. Sorry purple, didn't make the cut.

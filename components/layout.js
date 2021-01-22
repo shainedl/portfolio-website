@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Nav from './nav.js'
 
 const name = 'Shaine Leibowitz'
-export const siteTitle = 'Shaine Leibowitz'
+export const siteTitle = 'ShaineDL'
 
 export default function Layout({ children, home }) {
   return (

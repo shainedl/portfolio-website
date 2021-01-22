@@ -1,11 +1,10 @@
 .container {
-  max-width: 36rem;
-  padding: 0 1rem;
-  margin: 7rem auto 6rem;
+  padding: 0 5rem;
+  margin: 90px 0;
 }
 
 .backToHome {
   margin: 1rem 0 0;
-  color: #ff6ec7;
+  color: #fabdcc;
   font-weight: 800;
 }

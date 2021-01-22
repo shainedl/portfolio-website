@@ -7,24 +7,99 @@
   }
   
   .headingXl {
-    font-size: 2rem;
-    line-height: 1.3;
-    font-weight: 800;
-    letter-spacing: -0.05rem;
-    margin: 1rem 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 120%;
+    letter-spacing: 0.383333px;
+    color: #F17591;
+    border-bottom: 1px solid #F17591;
+    display: flex;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+  }
+
+  .nav {
+    position: fixed;
+    background-color: #FABDCC !important;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    height: 60px;
+    line-height: 60px;
+    -webkit-box-shadow: 0px 3px 5px -3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 3px 5px -3px rgba(0,0,0,0.5);
+    box-shadow: 0px 3px 5px -3px rgba(0,0,0,0.5);
+    z-index: 999999;
+    top: 0;
+    left:0;
+    width: 100vw;
+  }
+
+  .nav_grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
   }
   
+  .list a {
+    color: white;
+    font-weight: bold;
+    display: block;
+    font-size: 18px;
+    margin: 0 14px;
+    position: relative;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal; 
+    letter-spacing: normal;
+    transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+  }
+
+  .me{
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    margin-left: 20px;
+  }
+
+  .list a:hover {
+    color:#0d1a26;
+  }
+
+  .me:hover {
+    color:#0d1a26;
+  }
+
+
+
   .headingLg {
     font-size: 1.5rem;
     line-height: 1.4;
     margin: 1rem 0;
     font-weight: 800;
+    color: #F17591;
   }
   
   .headingMd {
     font-size: 1.2rem;
     
-    font-weight: 800;
   }
   
   .borderCircle {
@@ -38,15 +113,50 @@
   .padding1px {
     padding-top: 1px;
   }
+
+  .list li{
+    display: inline-block;
+  }
   
   .list {
     list-style: none;
-    padding-left: 0;
     margin: 0;
+    min-width: 200px;
+    text-align: center;
+  }
+
+  .blog_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   
-  .listItem {
-    margin: 0 0 1.25rem;
+  .blog_img{
+    width: 100%;
+    object-fit: cover;
+    height: 236px;
+    object-position: top center;  
+  }
+
+  .blog_details{
+    padding: 34px 40px 15px 42px;
+  }
+
+
+  .listItem{ 
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 63px;
+    justify-content: space-between;
+    box-shadow: 8px 8px 0 0 rgba(0,0,0,0.05);
+    background-color: #ffffff;
+    transition: .2s;
+  }
+
+  .listItem:hover {
+    box-shadow: 8px 8px 0 0 #fabdcc;;
   }
   
   .lightText {
@@ -55,43 +165,24 @@
 
   .li {
     list-style: none;
+    margin-bottom: 0.25em;
   }
 
-  .nav {
-   
-    position: fixed;
-    background: #181818;
-    top: 0;
-    left: 0;
-    animation: moveDown 0.5s ease-in-out;
-    height: 5rem; 
-    width: 100%;
-    box-shadow: 0rem .2rem #ff6ec7;
-    
-  }
 
-  .nav a{
-    float: left;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 800;
-    display: block;
-    padding: 0.5rem;
-    
-  }
+
   
   .logo {
     width: auto;
-    height: 1.4rem;
+    height: 18px;
     text-align: center;
     right: 0;
   }
 
-  .project{
-    border: 0.4rem double #ff6ec7; 
+  /* .project{
+    border: 0.4rem double #fabdcc; 
     margin-bottom: .8vh;
     
-  }
+  } */
 
   .pdf, .story{
     margin-top: 2rem;
@@ -107,7 +198,7 @@
 	
   /* Set up positioning */
   position: fixed;
-  top: 5.2rem;
+  
   left: 0;
 
     /* background-image: url("/images/home_page.png"); */

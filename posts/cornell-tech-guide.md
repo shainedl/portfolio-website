@@ -1,6 +1,7 @@
 ---
 title: 'Cornell Tech Computer Science Masters: A Guide for Prospective Students'
 date: '2020-05-29'
+source: 'https://www.tech.cornell.edu/wp-content/uploads/2018/06/visit-us-thumbnail-360-1440x1166.jpg'
 ---
 
 ## Why are you writing this post?
