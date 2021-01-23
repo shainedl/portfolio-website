@@ -16,7 +16,7 @@ export default function Home({ allPostsData }) {
               src="/images/home_page.png"
               alt="HomePage"
               width="auto"
-              height="600"
+              height="auto"
               className={`${utilStyles.home}`}
           />
           <div className={utilStyles.homepage_text}>
