@@ -25,12 +25,10 @@ export default function Home({ allPostsData }) {
               className={`${utilStyles.home}`}
           />
           <div className={utilStyles.homepage_text}>
-          <div className={utilStyles.homepage_headers}>
           <div className={utilStyles.heading_home}>Shaine Leibowitz</div>
-          <div className={utilStyles.heading2_home}>Data Scientist</div>
-          </div>
+          <div className={utilStyles.heading2_home}>data scientist</div>
           <div className={utilStyles.about}>
-            <p>Shaine Leibowitz has a background in Data Science having worked 
+            <p>Shaine Leibowitz has a background in data science having worked 
             for Hillary for America, Argus Information, WeWork, and most recently 
             helped out the Nebraska data team for Biden for President. 
             She holds a BS in Engineering Management Systems from Columbia University 
