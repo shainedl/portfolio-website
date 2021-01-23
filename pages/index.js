@@ -19,16 +19,16 @@ export default function Home({ allPostsData }) {
       </Head>
       <Nav />
       <div className={utilStyles.home_wrapper}>
-          <Image
+          <img
               src="/images/home_page.png"
               alt="HomePage"
-              width="auto"
-              height="auto"
               className={`${utilStyles.home}`}
           />
           <div className={utilStyles.homepage_text}>
+          <div className={utilStyles.homepage_headers}>
           <div className={utilStyles.heading_home}>Shaine Leibowitz</div>
-          <span className={utilStyles.heading2_home}>Data Scientist</span>
+          <div className={utilStyles.heading2_home}>Data Scientist</div>
+          </div>
           <div className={utilStyles.about}>
             <p>Shaine Leibowitz has a background in Data Science having worked 
             for Hillary for America, Argus Information, WeWork, and most recently 
@@ -36,7 +36,7 @@ export default function Home({ allPostsData }) {
             She holds a BS in Engineering Management Systems from Columbia University 
             and a MEng in Computer Science from Cornell Tech. She currently volunteers 
             for the open source project Community Insight Impact on the 
-            data and machine learning teams. During her free time, Shaine crochets 
+            data and machine learning teams. During her free time, Shaine crochets, reads, 
             and performs one woman living room musicals.
             </p>
             <p>
