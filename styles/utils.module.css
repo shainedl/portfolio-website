@@ -17,6 +17,7 @@
 
 .homepage_text{
   padding: 15px;
+  
 }
 
 @media (max-width: 1260px) and (min-width: 768px){
@@ -57,7 +58,7 @@
   top: 0;
   left:0;
   width: 100vw;
-  text-shadow: -1px 1px #F17591;
+  
 }
 
 .nav_grid{
@@ -83,7 +84,7 @@
   letter-spacing: normal;
   transition: all .2s ease-in;
   -webkit-transition: all .2s ease-in;
-  
+  text-shadow: -1px 1px 1px #0d1a26;
 }
 
 .me{
@@ -98,6 +99,7 @@
   justify-content: center;
   height: 100%;
   margin-left: 20px;
+  text-shadow: -1px 1px 1px #0d1a26;
 }
 
 .list a:hover {
@@ -172,7 +174,7 @@
   height: 18px;
   text-align: center;
   right: 0;
-  box-shadow: -1px 1px #F17591;
+  box-shadow: -1px 1px 1px #0d1a26;
 }
 
 .home_wrapper {
