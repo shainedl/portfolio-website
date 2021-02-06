@@ -41,7 +41,7 @@
 
 
 .homepage_text{
-  /* padding: 15px; */
+   padding: 15px; 
   
 }
 
@@ -92,15 +92,15 @@
     background-color: #fabdcc !important;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
-    height: 25px;
-    line-height: 20px; 
+    height: 40px;
+    line-height: 35px; 
     -webkit-box-shadow: 0px 3px 5px -3px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 3px 5px -3px rgba(0,0,0,0.5);
     box-shadow: 0px 3px 5px -3px rgba(0,0,0,0.5);
     z-index: 999999;
     top: 0;
     left:0;
-    width: 100vw; 
+    width: 200vw; 
   }
 }
 
@@ -123,7 +123,6 @@
   }
 }
 
-@media screen and (min-width: 601px) {
   .list a {
     color: white;
     display: block;
@@ -141,32 +140,11 @@
     -webkit-transition: all .2s ease-in;
     text-shadow: -1px 1px 1px #0d1a26;
   }
-}
-
-@media screen and (max-width: 600px) {
-  .list a {
-    color: white;
-    display: block;
-    font-size: 12px;
-    margin: 0 10px;
-    position: relative;
-    text-decoration: none;
-    text-transform: capitalize;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal; 
-    letter-spacing: normal;
-    transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    text-shadow: -1px 1px 1px #0d1a26;
-  }
-}
 
 @media screen and (max-width: 600px) {
   .me{
     color: white;
-    font-size: 16px;
+    font-size: 22px;
     letter-spacing: 1px;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -174,8 +152,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    height: 100%;
-    margin-left: 10px;
+    margin-left: 40px;
     text-shadow: -1px 1px 1px #0d1a26;
   }
 }
@@ -210,7 +187,7 @@
 @media screen and (max-width: 600px) {
   .logo {
     width: auto;
-    height: 12px;
+    height: 16px;
     text-align: center;
     right: 0;
     box-shadow: -1px 1px 1px #0d1a26;
