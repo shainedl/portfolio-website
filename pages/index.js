@@ -28,14 +28,8 @@ export default function Home({ allPostsData }) {
           <div className={utilStyles.heading_home}>Shaine Leibowitz</div>
           <div className={utilStyles.heading2_home}>data scientist</div>
           <div className={utilStyles.about}>
-            <p>Shaine Leibowitz has a background in data science having worked 
-            for Hillary for America, Argus Information, WeWork, and most recently 
-            helped out the Nebraska data team for Biden for President. 
-            She holds a BS in Engineering Management Systems from Columbia University 
-            and a MEng in Computer Science from Cornell Tech. She currently volunteers 
-            for the open source project Community Insight Impact on the 
-            data and machine learning teams. During her free time, Shaine crochets, reads, 
-            and performs one woman living room musicals.
+            <p>Shaine Leibowitz has gained strong experience from her technical projects and communicating findings to non-technical audiences through her work and educational experiences. In order to serve vulnerable communities, she is currently the Machine Learning team lead at the non-profit Community Insight Impact. The pursuit of applying data science to advocacy has drawn her to Biden for President and Hillary for America, and she has a background in industry from her time at Argus and WeWork. Shaine holds a BS in Engineering Management Systems from Columbia University and a MEng in Computer Science from Cornell Tech. During her free time, Shaine crochets, reads, and performs one woman living room musicals.
+
             </p>
             <p>
               If you would like to contact her, please email ShaineDL@gmail.com. 
