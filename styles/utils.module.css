@@ -55,10 +55,8 @@
   }
 }
 
-
 .homepage_text{
    padding: 15px; 
-  
 }
 
 @media screen and (min-width: 601px){
@@ -116,7 +114,7 @@
     z-index: 999999;
     top: 0;
     left:0;
-    width: 200vw; 
+    width: 100vw; 
   }
 }
 
@@ -142,8 +140,8 @@
   .list a {
     color: white;
     display: block;
-    font-size: 18px;
-    margin: 0 14px;
+    font-size: 16px;
+    margin: 0px 8px;
     position: relative;
     text-decoration: none;
     text-transform: capitalize;
@@ -160,7 +158,7 @@
 @media screen and (max-width: 600px) {
   .me{
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 1px;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -223,7 +221,7 @@
   .list {
     list-style: none;
     margin: 0;
-    text-align: center;
+    padding:0;
   }
 }
 
