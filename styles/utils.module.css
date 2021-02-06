@@ -17,6 +17,7 @@
     letter-spacing: 1px;
     position: relative;
     text-align: center;
+    padding-top: 40px;
   }
 }
 
@@ -88,8 +89,8 @@
     background-color: #fabdcc !important;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
-    height: 60px;
-    line-height: 60px;
+    height: 50px;
+    line-height: 50px;
     -webkit-box-shadow: 0px 3px 5px -3px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 3px 5px -3px rgba(0,0,0,0.5);
     box-shadow: 0px 3px 5px -3px rgba(0,0,0,0.5);
@@ -137,6 +138,7 @@
   }
 }
 
+@media screen and (max-width: 600px) {
   .list a {
     color: white;
     display: block;
@@ -154,11 +156,32 @@
     -webkit-transition: all .2s ease-in;
     text-shadow: -1px 1px 1px #0d1a26;
   }
+}
+
+@media screen and (min-width: 601px) {
+  .list a {
+    color: white;
+    display: block;
+    font-size: 18px;
+    margin: 0px 18px;
+    position: relative;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal; 
+    letter-spacing: normal;
+    transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    text-shadow: -1px 1px 1px #0d1a26;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .me{
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 1px;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -174,7 +197,7 @@
 @media screen and (min-width: 601px) {
   .me{
     color: white;
-    font-size: 1.5em;
+    font-size: 20px;
     letter-spacing: 1px;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -191,7 +214,7 @@
 @media screen and (min-width: 601px) {
   .logo {
     width: auto;
-    height: 18px;
+    height: 16px;
     text-align: center;
     right: 0;
     box-shadow: -1px 1px 1px #0d1a26;
@@ -201,7 +224,7 @@
 @media screen and (max-width: 600px) {
   .logo {
     width: auto;
-    height: 16px;
+    height: 14px;
     text-align: center;
     right: 0;
     box-shadow: -1px 1px 1px #0d1a26;
@@ -230,6 +253,7 @@
     height: 50vh;
     border-right: 3px solid #F17591;
     border-bottom: 3px solid #F17591;
+    margin: 40px 0;
   }
 }
 
@@ -237,6 +261,8 @@
   .home{
     height: 100vh;
     border-right: 4px solid #F17591;
+    border-bottom: 4px solid #F17591;
+    margin: 50px 0;
   }
 }
 
@@ -267,7 +293,7 @@
   width: 100%;
   object-fit: cover;
   height: 236px;
-  object-position: top center; 
+  object-position: top center;
 }
 
 .blog_details{
@@ -299,12 +325,9 @@
   margin-bottom: 0.25em;
 }
 
-
-
 .home_wrapper {
   display: flex;
   flex-direction: row;
-  /* background: #F17591; */
   width: 100%;
-  margin: 40px 0;
+  
 }
