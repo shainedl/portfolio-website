@@ -33,7 +33,7 @@ export default function Home({ allPostsData }) {
             </p>
             <p>
               If you would like to contact her, please email ShaineDL@gmail.com. 
-              Shaine built this website using Node.JS. Hope you enjoy!
+              Shaine built this website using Next.js. Hope you enjoy!
             </p>
             </div>
           </div>
