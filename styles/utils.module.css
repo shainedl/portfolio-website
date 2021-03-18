@@ -250,7 +250,7 @@
 
 @media screen and (max-width: 600px) {
   .home{
-    
+    height: 100vh;
     margin: 40px 0;
   }
 }
