@@ -12,7 +12,7 @@
 @media screen and (max-width: 600px) {
   .heading_home {
     font-style: normal;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 20px;
     letter-spacing: 1px;
     position: relative;
@@ -32,8 +32,8 @@
 
 @media screen and (max-width: 600px) {
   .heading2_home {
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 18px;
+    line-height: 20px;
     letter-spacing: 0.383333px;
     text-align: center;  
   }
@@ -41,23 +41,23 @@
 
 @media screen and (max-width: 600px) {
   .about{
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.383333px;
+    display: none;
   }
 }
 
 @media screen and (min-width: 601px) {
   .about{
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 20px;
     letter-spacing: 0.383333px;
     margin-top: 10px;
   }
 }
 
-.homepage_text{
-   padding: 15px; 
+@media screen and (max-width: 600px){
+  .homepage_text{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 601px){
@@ -250,9 +250,7 @@
 
 @media screen and (max-width: 600px) {
   .home{
-    height: 50vh;
-    border-right: 3px solid #F17591;
-    border-bottom: 3px solid #F17591;
+    
     margin: 40px 0;
   }
 }
