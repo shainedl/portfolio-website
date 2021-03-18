@@ -252,6 +252,8 @@
   .home{
     height: 100vh;
     margin: 40px 0;
+    border-right: 2px solid #F17591;
+    border-bottom: 2px solid #F17591;
   }
 }
 
