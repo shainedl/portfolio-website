@@ -289,15 +289,19 @@
   justify-content: space-between;
 }
 
+.blog_list a{
+  color:#0d1a26;
+}
+
 .blog_img{
   width: 100%;
   object-fit: cover;
-  height: 236px;
+  height: 200px;
   object-position: top center;
 }
 
 .blog_details{
-  padding: 34px 40px 15px 42px;
+  padding: 20px 40px 10px 42px;
 }
 
 

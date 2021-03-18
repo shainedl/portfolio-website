@@ -33,6 +33,10 @@ export default function Post({ postData }) {
             <Date dateString={postData.date} />
           </div>
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          <br></br>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnPUGqtiuX1syh2KIizY7DTn38g-kWHSwsqwbfJ6FV5MzUGg/viewform?usp=sf_link">
+          Click here to subscribe to future blog posts.
+          </a>
         </article>
       </Layout>
     )

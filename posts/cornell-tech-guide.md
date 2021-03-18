@@ -1,6 +1,6 @@
 ---
 title: 'Cornell Tech Computer Science Masters: A Guide for Prospective Students'
-date: '2020-05-29'
+date: '2020-05-30'
 source: 'https://www.tech.cornell.edu/wp-content/uploads/2018/06/visit-us-thumbnail-360-1440x1166.jpg'
 ---
 
@@ -50,7 +50,7 @@ I love living in New York City! I went to college in NYC, left for a couple year
 
 I majored in Operations Research concentrating in Engineering Management Systems in college and took 3 Computer Science classes. I personally felt the disadvantage to be manageable, and I felt a little more advantaged in the Machine Learning courses.
 
-I had never programmed in Python beforehand which is the programming language used in most of the classes. I spent the first few months of school googling "I did this thing in R. What is the Python equivalent?" The first time I had to submit an assignment using Git, I freaked out because I thought I deleted all my work. Luckily, my brother fixed it for me in about 2 seconds. These are not things the professors will teach in you in class. I would recommend asking your fellow classmates questions and partnering with someone in the homeworks who has more experience. I often felt embarrassed when I didn't already know these things which made it difficult to ask questions, but it was always useful when I did. I would warn that if it's a lot easier for your homework partner, they might try to take over and just do the assignment alone. I would recommend talking with your partners before you get to work about how you plan to divide the assignments, work in the same room, and update each other about your progress.
+I had never programmed in Python beforehand which is the programming language used in most of the classes. I spent the first few months of school googling "I did this thing in R. What is the Python equivalent?" The first time I had to submit an assignment using Git, I freaked out because I thought I deleted all my work. Luckily, my brother fixed it for me in about 2 seconds. These are not things the professors will teach in you in class. I would recommend asking your fellow classmates questions and partnering with someone in the homeworks who has more experience. I often felt embarrassed when I didn't already know these things which made it difficult to ask questions, but it was always useful when I did. I would warn that if your homework partner has more experience and finds the work to be easier, they might try to take over and just do the assignment alone. I would recommend talking with your partners before you get to work about how you plan to divide the assignments, work in the same room, and update each other about your progress.
 
 The only class I felt put in a disadvantage, and I heard other people who did not major in Computer Science say they felt similarly, is Algorithms and Data Structures. For this course I would recommend a ton of practice problems. The flip side of going to such a new school is disorganization and making it up as you go. When asked for practice problems, the teacher responded that the midterm was not even made yet let alone practice problems. Therefore, if you are not too familiar with algorithms, I would recommend spending some time beforehand learning and practicing.
 
@@ -59,7 +59,7 @@ I have directly heard someone from admissions say that they look for Linear Alge
 
 ## Are there any scholarships?
 
-I was afforded 2 scholarships. One was a merit-based scholarship that Cornell Tech offered me along with my acceptance. This did not require a separate scholarship application. The other was through Women in Technology and Entrepreneurship in New York (WiTNY). They offer 3 scholarships each year to those that identify as women and are in the Computer Science, Operation Research, and Electrical Engineering programs specifically for Cornell Tech. They send you an application after you apply. I am not sure how applying at later rounds affects the likelihood of getting a scholarship.
+I was afforded 2 scholarships. One was a merit-based scholarship that Cornell Tech offered me along with my acceptance. This did not require a separate scholarship application. The other was through Women in Technology and Entrepreneurship in New York (WiTNY). WiTNY offers 3 scholarships each year to those that identify as women and are in the Computer Science, Operation Research, and Electrical Engineering programs specifically for Cornell Tech. They send you an application after you apply. I am not sure how applying at later rounds affects the likelihood of getting a scholarship.
 
 ## What is WiTNY / Break Through Tech?
 
