@@ -54,8 +54,7 @@ I had never programmed in Python beforehand which is the programming language us
 
 The only class I felt put in a disadvantage, and I heard other people who did not major in Computer Science say they felt similarly, is Algorithms and Data Structures. For this course I would recommend a ton of practice problems. The flip side of going to such a new school is disorganization and making it up as you go. When asked for practice problems, the teacher responded that the midterm was not even made yet let alone practice problems. Therefore, if you are not too familiar with algorithms, I would recommend spending some time beforehand learning and practicing.
 
-I have directly heard someone from admissions say that they look for Linear Algebra knowledge. If you don't have that on your transcript, you should take an online course and mention it in your application. Linear Algebra is the foundation of a lot of computer science and machine learning.
-
+I have directly heard someone from admissions say that they look for Linear Algebra knowledge. If you don't have that on your transcript, you should take an online course and mention it in your application. Linear Algebra is the foundation of a lot of computer science and machine learning. Good reviews include [Khan Academy](https://www.khanacademy.org/math/linear-algebra) and this [refresher](http://cs229.stanford.edu/section/cs229-linalg.pdf).
 
 ## Are there any scholarships?
 
